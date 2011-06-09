@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, usbswitch!</string>
+    <string name="app_name">Nook USB Host Switcher</string>
+    <string name="refresh">Refresh USB status</string>
+    <string name="VbusSrcText">Force external VBUS + Charge</string>
+</resources>

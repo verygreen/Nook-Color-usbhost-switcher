@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/app_name" android:id="@+id/ButtonTitle"></TextView>
+    <ToggleButton android:id="@+id/UsbMode" android:text="ToggleButton" android:clickable="true" android:onClick="usbSwitchClick" android:layout_width="100dip" android:layout_height="100dip"></ToggleButton>
+    <TextView android:text="TextView" android:id="@+id/UsbState" android:layout_width="wrap_content" android:layout_height="50dip"></TextView>
+    <Button android:layout_height="wrap_content" android:id="@+id/RefreshStatus" android:layout_width="wrap_content" android:text="@string/refresh" android:onClick="refreshUsbStatusClick"></Button>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/VBusTitle" android:text="@string/VbusSrcText"></TextView>
+    <ToggleButton android:layout_height="wrap_content" android:id="@+id/VbusSrc" android:text="ToggleButton" android:layout_width="80dip" android:onClick="vbusSrcClick"></ToggleButton>
+    <TextView android:text="TextView" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/VBUSState"></TextView>
+</LinearLayout>
